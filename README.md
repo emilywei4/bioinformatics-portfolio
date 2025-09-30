@@ -1,7 +1,7 @@
 # UCSD Bioinformatics Portfolio
 
 This repository contains selected projects from my **B.S. in Bioinformatics at UC San Diego**.  
-Projects are organized by course, with 2–3 highlighted assignments per class.
+Projects are organized by course, with important assignments highlighted per class.
 
 ## Courses
 
