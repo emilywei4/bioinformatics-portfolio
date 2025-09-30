@@ -1,20 +1,15 @@
-# BIMM 182 – Biological Databases
+# CSE 185 – Advanced Bioinformatics Laboratory
 
-This folder contains projects from **BIMM 182: Biological Databases** at UC San Diego.  
-The course emphasized working with genomic and proteomic data, integrating databases, and applying computational tools to biological problems.
+This folder contains projects from **CSE 185: Advanced Bioinformatics Laboratory** at UC San Diego.  
+The course emphasized [text].
 
 ## Topics
-- Querying and analyzing biological databases
-- Oncogene and cancer genomics research
-- Data parsing, cleaning, and quality control
-- Applications in bioinformatics and personalized medicine
+- [text]
 
 ## Projects
-- **Project 1:** Analysis of oncogene expression datasets
-- **Project 2:** Database queries and integration with Biopython
-- **Project 3:** Genomic variant exploration
+- **Lab 1:** [text]
+- **Lab 2:** [text]
+- **Lab 3:** [text]
 
 ## Skills Highlighted
-- Python (pandas, Biopython)
-- SQL/database querying
-- Computational genomics
+- [text]
