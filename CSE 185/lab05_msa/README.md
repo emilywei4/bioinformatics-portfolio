@@ -41,3 +41,8 @@ mafft --retree 2 input.fa > output.aln
 #   -o : output directory
 
 ViralMSA.py -s sequences.fa -r ref.fa -e you@email.com -o viralmsa_out
+
+# pairwise_alignment.py
+# Lab 5, Q5 — Simple pairwise alignment scoring
+
+python pairwise_alignment.py input.fa
