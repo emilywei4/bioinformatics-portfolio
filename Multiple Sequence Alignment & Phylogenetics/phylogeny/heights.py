@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# Usage: python heights.py tree.nw
 import sys, treeswift
 
 tree = treeswift.read_tree_newick(sys.argv[1])
