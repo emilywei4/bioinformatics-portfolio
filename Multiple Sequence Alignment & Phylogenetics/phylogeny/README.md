@@ -43,4 +43,4 @@ nw_distance -n -s f -m p tree_fasttree.nw
 
 # Custom TreeSwift script
 # Compute node heights (label,height)
-python lab6_q7_heights.py tree_fasttree.nw
+python heights.py tree_fasttree.nw
