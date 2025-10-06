@@ -10,9 +10,10 @@ A simple Python script (`pairwise_alignment.py`) demonstrates how to compute ali
 ---
 
 ## Files
-- **MAFFT** — de novo multiple sequence alignment  
-- **ViralMSA** — reference-guided alignment for viral genomes  
-- `pairwise_alignment.py` — compute pairwise alignment scores for all sequences in a FASTA file  
+- **Pipeline drivers (documented commands below)**
+  - MAFFT — de novo multiple sequence alignment  
+  - ViralMSA — reference-guided alignment for viral genomes  
+- `pairwise_alignment.py` — compute pairwise alignment scores for all sequences in a FASTA file
 
 ---
 
