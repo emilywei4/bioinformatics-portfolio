@@ -1,4 +1,4 @@
-# 🌳 Phylogenetic Inference & Tree Analysis
+# Phylogenetic Inference & Tree Analysis
 
 **Problem**  
 How can we infer phylogenetic relationships from multiple sequence alignments and extract meaningful information (like branch lengths and node heights) from tree structures?
