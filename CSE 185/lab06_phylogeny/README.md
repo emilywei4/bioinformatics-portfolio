@@ -17,7 +17,7 @@ Different ML engines/model choices can change topology/support. Comfort with New
   - IQ-TREE (GTR+I+R4, custom prefix)  
   - RAxML-NG (GTR+I+R4, ML-estimated invariant sites)  
   - newick-utils `nw_distance` (print leaf labels + incident branch length)
-- `lab6_q7_heights.py` — TreeSwift script: print `label,height` (height = max distance to any leaf)
+- `heights.py` — TreeSwift script: print `label,height` (height = max distance to any leaf)
 
 ---
 
