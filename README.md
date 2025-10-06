@@ -1,24 +1,41 @@
-# UCSD Bioinformatics Portfolio
+# Bioinformatics Portfolio
 
-This repository contains selected projects from my **B.S. in Bioinformatics at UC San Diego**.  
-Projects are organized by course, with important assignments highlighted per class.
+This portfolio showcases a collection of bioinformatics problems solved during my training in Bioinformatics at UC San Diego, a program that emphasized applied computational analysis and real-world genomics workflows. Each section focuses on a specific analytical challenge, ranging from sequence parsing to phylogenetic inference, and demonstrates practical problem-solving skills using modern bioinformatics tools and Python-based workflows.
 
-## Courses
+---
 
-### BIMM 181 – Molecular Sequence Analysis
-Projects in sequence parsing, alignment algorithms, and motif discovery.  
+## Project Areas
 
-### BIMM 182 – Biological Databases
-Projects involving genomic databases, oncogene research, and data analysis pipelines.  
+### 🧫 Sequence Parsing & QC
+Workflows for reading and analyzing FASTA/FASTQ data, computing GC content, k-mer frequencies, and quality control of short-read data.
 
-### CSE 185 – Advanced Bioinformatics Lab
-Projects demonstrating Python-based data analysis, reproducible workflows, and visualization.  
+### 🧬 Genome Assembly & Annotation
+Implementations of read trimming, de novo assembly, and gene prediction using tools like SPAdes, QUAST, and Prodigal.
 
-## Skills Highlighted
-- Python (pandas, numpy, matplotlib, biopython)  
-- Data analysis & visualization  
-- Computational genomics & molecular sequencing  
-- Molecular biology techniques  
+### 🧪 Read Mapping & Variant Calling
+End-to-end pipelines for mapping paired-end reads, generating alignment statistics, constructing consensus sequences, and calling SNVs/indels.
 
-## How to Use
-Clone the repo and open project notebooks in Jupyter, or browse project folders directly here on GitHub.
+### 🧭 Multiple Sequence Alignment & Phylogenetics
+Practical exercises in multiple sequence alignment (MAFFT, ViralMSA) and phylogenetic inference (FastTree, IQ-TREE, RAxML-NG), including Python-based tree traversal and visualization.
+
+### 💡 Database-Driven Analysis
+Exploratory genomics and oncogene research using biological databases, data integration, and custom Python analysis pipelines.
+
+---
+
+## Skills Demonstrated
+- **Python** (pandas, numpy, matplotlib, biopython, treeswift)
+- **NGS Workflow Tools** (fastp, Bowtie2, SPAdes, LoFreq, FreeBayes, IQ-TREE, RAxML-NG)
+- **Computational Genomics** — assembly, alignment, variant calling
+- **Data Analysis & Visualization** — reproducible workflows in Python
+- **Molecular Biology Concepts** — genome structure, alignment logic, evolutionary inference
+
+---
+
+## How to Explore
+Each folder corresponds to a different bioinformatics problem area.  
+You can:
+- **Browse folders** directly on GitHub for code and READMEs, or  
+- **Clone the repository** to explore locally:
+  ```bash
+  git clone https://github.com/yourusername/bioinformatics-problems-portfolio.git
