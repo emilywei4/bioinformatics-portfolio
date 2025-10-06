@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
-# Lab 6, Q7 — simplest version
-# Usage: python lab6_q7_heights.py tree.nw
+# Usage: python heights.py tree.nw
 import sys, treeswift
 
 tree = treeswift.read_tree_newick(sys.argv[1])
