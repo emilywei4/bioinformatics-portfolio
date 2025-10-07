@@ -1,4 +1,4 @@
-# 🧫 FASTA/FASTQ Parsing & Basic Metrics
+# FASTA/FASTQ Parsing & Basic Metrics
 
 **Problem**  
 How can we directly parse FASTA/FASTQ files to compute core sequencing metrics such as GC content, read count, and average read length?
