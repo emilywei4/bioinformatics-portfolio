@@ -1,4 +1,4 @@
-# ⏳ Temporal Phylogenetics: Rooting, Dating, and TTR Ratios
+# Temporal Phylogenetics: Rooting, Dating, and TTR Ratios
 
 **Problem**  
 How can we compare **time-to-root (TTR)** distances between a mutation tree and a time tree, and then **root/date** a phylogeny using standard tools?
