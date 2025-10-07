@@ -26,31 +26,38 @@ It reflects the early stages of a typical NGS (Next-Generation Sequencing) data 
 Given a FASTA with one sequence (multi-line OK), e.g. `../sequence_parsing_qc/sample.fa`:
 
 ```bash
+# ---------------------------
 # Unique k-mers
 python unique_kmers.py 3 ../sequence_parsing_qc/sample.fa
 
+# ---------------------------
 # K-mer counts
 python kmer_counts.py 3 ../sequence_parsing_qc/sample.fa
 
+# ---------------------------
 # https://github.com/IGBB/quack
 # Generate read quality plots
 quack -1 reads_R1.fastq.gz -2 reads_R2.fastq.gz -n sample_qc
 # Output: sample_qc.svg (plus report assets)
 
+# ---------------------------
 # https://github.com/OpenGene/fastp
 # Adapter and quality trimming
 fastp -i reads_R1.fastq.gz -I reads_R2.fastq.gz -o trimmed_R1.fastq.gz -O trimmed_R2.fastq.gz -h fastp_report.html -j fastp_report.json
 
+# ---------------------------
 # https://ablab.github.io/spades/
 # De novo assembly; output directory name is the "job name" for this run
 spades.py --pe1-1 trimmed_R1.fastq.gz --pe1-2 trimmed_R2.fastq.gz -o spades_out
 # Output: contigs.fasta in spades_out/
 
+# ---------------------------
 # https://quast.sourceforge.net/quast.html
 # Evaluate assembly quality
 quast -o quast_out spades_out/contigs.fasta
 # Output: quast_out/report.tsv, etc.
 
+# ---------------------------
 # https://github.com/hyattpd/Prodigal
 # Gene prediction: -i input FASTA, -o GFF, -a proteins, -d nucleotide CDS
 prodigal -i spades_out/contigs.fasta \
