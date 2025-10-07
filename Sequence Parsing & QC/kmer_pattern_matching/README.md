@@ -1,33 +1,33 @@
 # K-mer Pattern Matching
 
 **Problem**  
-How can we identify the most frequent k-mers in a DNA sequence while allowing for sequencing errors or mutations (up to *d* mismatches)?
+How can we identify the most frequent k-mers in a DNA sequence while allowing up to *d* mismatches, and quickly list all neighbors of a k-mer within Hamming distance ≤ *d*?
 
 **Approach**  
-These Python scripts implement basic string algorithms used in genomic data analysis.  
-They generate all possible *d*-mismatch neighbors of a k-mer, compute Hamming distances, and count approximate k-mer occurrences across a DNA string to find common sequence motifs.
+This single Python module implements classic string algorithms for early genomic analysis:
+- `neighbors(s, d)` enumerates the *d*-mismatch neighborhood of a k-mer.
+- `HammingDistance(a, b)` counts mismatched bases between equal-length strings.
+- `frequent_words_with_mismatches(text, k, d)` tallies approximate k-mer frequencies across a sequence and returns the top patterns.
 
 ---
 
 ## Files
-- **neighbors.py** — Generates all neighbors of a sequence within a given Hamming distance.  
-- **frequent_kmers_mismatches.py** — Finds the most frequent k-mers with up to *d* mismatches.  
-- **Helper:** `HammingDistance(string1, string2)` — Counts base mismatches between two equal-length strings.
+- `kmer_pattern_matching.py` — contains `HammingDistance`, `neighbors`, and `frequent_words_with_mismatches`.
 
 ---
 
 ## Usage
 
-```bash
-# Import the neighbor function
-from neighbors import neighbors
+```python
+from kmer_pattern_matching import neighbors, frequent_words_with_mismatches
 
+# 1) Neighborhood of a k-mer (≤ d mismatches)
 neighbors("ACG", 1)
-# → ['CCG', 'GCG', 'TCG', 'AAG', 'AGG', 'ATG', 'ACA', 'ACC', 'ACT', 'ACG']
+# Example output (order may vary):
+# ['CCG', 'GCG', 'TCG', 'AAG', 'AGG', 'ATG', 'ACA', 'ACC', 'ACT', 'ACG']
 
-# Find the most frequent 4-mers with ≤1 mismatch
-from frequent_kmers_mismatches import frequent_words_with_mismatches
-
+# 2) Most frequent k-mers with mismatches
 text = "ACGTTGCATGTCGCATGATGCATGAGAGCT"
 frequent_words_with_mismatches(text, 4, 1)
-# → ['GCAT', 'CATG']
+# Example output:
+# ['GCAT', 'CATG']
