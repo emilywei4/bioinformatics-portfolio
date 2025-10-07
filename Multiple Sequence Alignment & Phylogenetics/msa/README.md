@@ -20,10 +20,12 @@ A simple Python script (`pairwise_alignment.py`) demonstrates how to compute ali
 ## Usage
 
 ```bash
+# ---------------------------
 # https://mafft.cbrc.jp/alignment/server/index.html
 # Perform de novo multiple sequence alignment
 mafft --retree 2 input.fa > output.aln
 
+# ---------------------------
 # https://github.com/niemasd/ViralMSA
 # Reference-guided multiple sequence alignment
 # Required arguments:
@@ -33,6 +35,7 @@ mafft --retree 2 input.fa > output.aln
 #   -o : output directory
 ViralMSA.py -s sequences.fa -r ref.fa -e you@email.com -o viralmsa_out
 
+# ---------------------------
 # Custom pairwise scoring script
 # Compute alignment similarity across all pairs
 python pairwise_alignment.py input.fa
