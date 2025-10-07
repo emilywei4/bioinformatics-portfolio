@@ -6,20 +6,23 @@ This portfolio showcases a collection of bioinformatics problems solved during m
 
 ## Project Areas
 
-### 🧫 Sequence Parsing & QC
+### Sequence Parsing & QC
 Workflows for reading and analyzing FASTA/FASTQ data, computing GC content, k-mer frequencies, and quality control of short-read data.
 
-### 🧬 Genome Assembly & Annotation
+### Genome Assembly & Annotation
 Implementations of read trimming, de novo assembly, and gene prediction using tools like SPAdes, QUAST, and Prodigal.
 
-### 🧪 Read Mapping & Variant Calling
+### Read Mapping & Variant Calling
 End-to-end pipelines for mapping paired-end reads, generating alignment statistics, constructing consensus sequences, and calling SNVs/indels.
 
-### 🧭 Multiple Sequence Alignment & Phylogenetics
+### Multiple Sequence Alignment & Phylogenetics
 Practical exercises in multiple sequence alignment (MAFFT, ViralMSA) and phylogenetic inference (FastTree, IQ-TREE, RAxML-NG), including Python-based tree traversal and visualization.
 
-### 💡 Database-Driven Analysis
+### Database-Driven Analysis
 Exploratory genomics and oncogene research using biological databases, data integration, and custom Python analysis pipelines.
+
+### Pairwise Genetic Distance & Clustering
+Workflows for computing pairwise genetic distances (TN93) and performing sequence clustering and visualization to explore genetic similarity and evolutionary patterns.
 
 ---
 
