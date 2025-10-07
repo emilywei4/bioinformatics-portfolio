@@ -20,6 +20,7 @@ Each tool provides unique capabilities for variant detection and accuracy assess
 ## Usage
 
 ```bash
+# ---------------------------
 # https://github.com/niemasd/ViralConsensus
 # Generate consensus sequence from mapped reads
 viral_consensus -i aln.bam -r ref.fa -o consensus.fa
@@ -27,12 +28,14 @@ viral_consensus -i aln.bam -r ref.fa -o consensus.fa
 #   -op pos_counts.tsv   # per-position base counts
 #   -oi ins_counts.tsv   # insertion counts
 
+# ---------------------------
 # https://www.htslib.org/doc/samtools-sort.html
 # https://www.htslib.org/doc/samtools-index.html
 # Sort and index BAM for variant calling
 samtools sort -@ 4 -o aln.sorted.bam aln.bam
 samtools index aln.sorted.bam
 
+# ---------------------------
 # https://csb5.github.io/lofreq/
 # Call variants using LoFreq
 # SNVs only:
@@ -45,6 +48,7 @@ samtools index aln.indelq.bam
 # SNVs + indels:
 lofreq call --call-indels -f ref.fa -o vars_lofreq_indels.vcf aln.indelq.bam
 
+# ---------------------------
 # https://github.com/freebayes/freebayes
 # Variant calling with FreeBayes; adjust ploidy (-p)
 # Viruses are typically haploid (-p 1)
