@@ -53,3 +53,9 @@ Each top-level folder contains focused subfolders with their own README and mini
   ```bash
   git clone https://github.com/yourusername/bioinformatics-problems-portfolio.git
   cd bioinformatics-problems-portfolio
+
+  > **Portfolio Review Only**
+> This repository is intended solely for recruiter/hiring review.
+> Do **not** copy, adapt, or submit any of this code for coursework or assignments.
+> © 2025 Emily Wei. All rights reserved.
+
