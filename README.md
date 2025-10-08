@@ -18,9 +18,6 @@ End-to-end pipelines for mapping paired-end reads, generating alignment statisti
 ### Multiple Sequence Alignment & Phylogenetics
 Practical exercises in multiple sequence alignment (MAFFT, ViralMSA) and phylogenetic inference (FastTree, IQ-TREE, RAxML-NG), including Python-based tree traversal and visualization.
 
-### Database-Driven Analysis
-Exploratory genomics and oncogene research using biological databases, data integration, and custom Python analysis pipelines.
-
 ### Pairwise Genetic Distance & Clustering
 Workflows for computing pairwise genetic distances (TN93) and performing sequence clustering and visualization to explore genetic similarity and evolutionary patterns.
 
