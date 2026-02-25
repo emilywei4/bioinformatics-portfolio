@@ -41,7 +41,7 @@ Comparative genomics and unsupervised learning:
 
 ## Skills Demonstrated
 - **Algorithm design & data structures:** dynamic programming (2D/3D), graph traversal (Eulerian paths, DAG DP), string algorithms (trie, suffix array, BWT/FM), HMMs (Viterbi)
-- **Python:** clean, standalone scripts with minimal dependencies; interview-ready explanations
+- **Python:** clean, standalone scripts with minimal dependencies
 - **Genomics concepts:** assembly via k-mer graphs, read mapping (seed-and-extend), motif discovery, rearrangement distance, clustering
 
 ---
