@@ -12,9 +12,6 @@ This folder contains small, independent scripts that implement the “graph tool
 - `string_reconstruction.py` reconstructs a string from a multiset of k-mers using de Bruijn + Eulerian path.
 - `k_universal_string.py` constructs a k-universal circular binary string via de Bruijn + Eulerian cycle.
 
-> These scripts are split by sub-project headers and can be run or imported independently.  
-> Any problems marked “NOT SOLVED” in notes are omitted here to keep the repo clean.
-
 ---
 
 ## Files & Key Functions
