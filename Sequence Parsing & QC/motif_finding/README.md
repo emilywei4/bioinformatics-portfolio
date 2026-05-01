@@ -11,8 +11,6 @@ Each script includes exactly the functions and helpers used for that task.
 - `median_string.py` — Brute-force all k-mers and pick the one minimizing total Hamming distance to the set.
 - `profile_most_probable_kmer.py` — Pick the k-mer in a string with highest probability under a given profile.
 
-> Stochastic methods (`randomized_motif_search`, `gibbs_sampler`) are omitted here (marked incorrect/unfinished).
-
 ---
 
 ## Files
