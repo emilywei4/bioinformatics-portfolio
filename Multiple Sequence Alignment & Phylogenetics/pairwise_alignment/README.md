@@ -10,8 +10,6 @@ These scripts implement classic DP formulations for sequence comparison:
 - `global_alignment.py` performs Needleman–Wunsch style global alignment with match/mismatch/indel scoring.
 - `local_alignment.py` performs Smith–Waterman style local alignment with score reset at 0.
 
-> Note: An “overlap alignment” function was listed but not implemented in the original notes; it’s intentionally **omitted** to keep this folder clean and interview-ready.
-
 ---
 
 ## Files & Key Functions
